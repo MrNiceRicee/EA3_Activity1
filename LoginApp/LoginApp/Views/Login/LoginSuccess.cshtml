@@ -1,0 +1,38 @@
+﻿@model LoginApp.Models.UserModel
+
+@{
+    ViewBag.Title = "LoginSuccess";
+}
+<style>
+    h4 {
+        color: rgb(28,30,50);
+    }
+</style>
+<h2>Login Successful!</h2>
+
+
+<div>
+    <h4>Welcome back, @Model.Username</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+    </dl>
+</div>
+<br />
+<p>@Html.ActionLink("Back to Login", "")</p>
+

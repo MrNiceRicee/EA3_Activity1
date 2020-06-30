@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "TextInput";
+}
+<style type="text/css">
+    input[type=text] {
+        width: 150px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 7px;
+        transition: width .4s;
+        transition-timing-function: ease-in-out;
+    }
+
+    input:focus {
+        width: 250px;
+    }
+</style>
+<h2>What is your name?</h2>
+<input type="text" id="firsttest" name="firstname" placeholder="Enter First Name" />
+<br />
+<input type="text" id="firsttest" name="lastname" placeholder="Enter Last Name" />
+
+

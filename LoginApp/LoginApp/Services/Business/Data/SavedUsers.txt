@@ -1,0 +1,4 @@
+﻿{"Username":"Admin","Password":"Secret"}
+{"Username":"User","Password":"Pass"}
+{"Username":"SomeUser","Password":"SomePass"}
+
